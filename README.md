@@ -12,7 +12,14 @@ Download the Extensions.swift file and add it to your existing Xcode project. Re
         myBool.toggle()
         print(myBool) // false
    ```
-  
+## String
+### getCharAtIndex()
+   ```swift
+        // String
+        let myString = "Hello World"
+        print(myString.getCharAtIndex(pos: 4)) // o
+   ```
+
 ## UIView
 ### cardDesign()
    ```swift
