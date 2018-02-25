@@ -32,4 +32,4 @@ Download the Extensions.swift file and add it to your existing Xcode project. Re
         // UIApplication
         UIApplication.shared.statusBarView?.backgroundColor = .red
    ```
-  
+  ![Screenshot](README%20Images/Status%20Bar.png)
