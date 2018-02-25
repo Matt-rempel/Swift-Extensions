@@ -16,6 +16,12 @@ extension Bool {
     }
 }
 
+extension String {
+    func getCharAtIndex(pos: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: pos)]
+    }
+}
+
 extension UIView {
     // Give an iOS 11 App Store card view look to a UIView
     func cardDesign() {
